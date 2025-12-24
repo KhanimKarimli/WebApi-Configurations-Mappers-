@@ -68,7 +68,11 @@ namespace WebApiWithMappers.Controllers
 			var product = await _context.Products.FirstOrDefaultAsync(x => x.Id == id);
 
 			if (product == null)
-				return NotFound();
+				return BadRequest(new
+				{
+					status = HttpStatusCode.BadRequest,
+					message = "Mehsul tapilmadi"
+				});
 
 			var dto = _mapper.Map<GetProductDto>(product);
 
@@ -88,37 +92,28 @@ namespace WebApiWithMappers.Controllers
 			}
 		}
 
-		//[HttpPut]
-		//public async Task<IActionResult> UpdateProduct(Guid id, UpdateProductDto dto)
-		//{
-		//	Product validproduct = await _context.Products.FirstOrDefaultAsync(t => t.Id == id);
-		//	if (validproduct == null)
-		//	{
-		//		return NotFound("Tapilmadi");
-		//	}
-		//	validproduct.Name = dto.Name==null ? validproduct.Name : dto.Name;
-		//	validproduct.Description = dto.Description==null ? validproduct.Description : dto.Description;
-		//	validproduct.Price = dto.Price==null ? validproduct.Price : dto.Price;
-		//	validproduct.Count = dto.Count==null ? validproduct.Count : dto.Count;
-		//	validproduct.CategoryId = dto.CategoryId==null ? validproduct.CategoryId : dto.CategoryId;
-		//	validproduct.UpdatedTime = DateTime.UtcNow;
-		//	_context.Products.Update(validproduct);
-		//	await _context.SaveChangesAsync();
-		//	return Ok();
-		//}
 
 		[HttpPut]
 		public async Task<IActionResult> UpdateProduct(Guid id, UpdateProductDto dto)
 		{
-			var product = await _context.Products.FirstOrDefaultAsync(x => x.Id == id);
-
-			if (product == null)
-				return NotFound("Tapılmadı");
-
-			_mapper.Map(dto, product);
-			product.UpdatedTime = DateTime.UtcNow;
+			Product validproduct = await _context.Products.FirstOrDefaultAsync(t => t.Id == id);
+			if (validproduct == null)
+			{
+				return BadRequest(new
+				{
+					status = HttpStatusCode.BadRequest,
+					message = "Mehsul tapilmadi"
+				});
+			}
+			validproduct.Name = dto.Name==null ? validproduct.Name : dto.Name;
+			validproduct.Description = dto.Description==null ? validproduct.Description : dto.Description;
+			validproduct.Price = dto.Price==null ? validproduct.Price : dto.Price;
+			validproduct.Count = dto.Count==null ? validproduct.Count : dto.Count;
+			validproduct.CategoryId = dto.CategoryId==null ? validproduct.CategoryId : dto.CategoryId;
+			validproduct.UpdatedTime = DateTime.UtcNow;
+			_context.Products.Update(validproduct);
 			await _context.SaveChangesAsync();
-			return Ok("Updated");
+			return Ok();
 		}
 
 		[HttpDelete]
@@ -127,7 +122,11 @@ namespace WebApiWithMappers.Controllers
 			Product validproduct = await _context.Products.FirstOrDefaultAsync(t => t.Id == id);
 			if (validproduct==null)
 			{
-				return NotFound();
+				return BadRequest(new
+				{
+					status = HttpStatusCode.BadRequest,
+					message = "Mehsul tapilmadi"
+				});
 			}
 			_context.Products.Remove(validproduct);
 			await _context.SaveChangesAsync();

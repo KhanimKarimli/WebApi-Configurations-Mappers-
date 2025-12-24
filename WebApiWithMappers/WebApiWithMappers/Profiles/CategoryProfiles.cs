@@ -9,9 +9,8 @@ namespace WebApiWithMappers.Profiles
     {
 		public CategoryProfiles()
 		{
-			CreateMap<Category, GetCategoryDto>().ReverseMap();
-			CreateMap<Category, CreateCategoryDto>().ReverseMap();
-			CreateMap<Category, UpdateCategoryDto>().ReverseMap();
+			CreateMap<Category, GetCategoryDto>();
+			CreateMap<CreateCategoryDto,Category>();
 		}
 		
     }

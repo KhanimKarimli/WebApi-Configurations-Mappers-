@@ -69,7 +69,11 @@ namespace WebApiWithMappers.Controllers
 			var category = await _context.Categories.FirstOrDefaultAsync(x => x.Id == id);
 
 			if (category == null)
-				return NotFound();
+				return BadRequest(new
+				{
+					status = HttpStatusCode.BadRequest,
+					message = "Kateqoriya tapilmadi"
+				});
 
 			var dto = _mapper.Map<GetCategoryDto>(category);
 
@@ -106,34 +110,21 @@ namespace WebApiWithMappers.Controllers
 			}
 		}
 
-		//[HttpPut]
-		//public async Task<IActionResult> UpdateCategory(Guid id, UpdateCategoryDto dto)
-		//{
-		//	Category validcategory = await _context.Categories.FirstOrDefaultAsync(t => t.Id == id);
-		//	if (validcategory == null)
-		//	{
-		//		return NotFound("Tapilmadi");
-		//	}
-		//	validcategory.Name = dto.Name==null ? validcategory.Name : dto.Name;
-		//	validcategory.Description = dto.Description==null ? validcategory.Description : dto.Description;
-		//	validcategory.UpdatedTime = DateTime.UtcNow;
-		//	_context.Categories.Update(validcategory);
-		//	await _context.SaveChangesAsync();
-		//	return Ok();
-		//}
 
 		[HttpPut]
 		public async Task<IActionResult> UpdateCategory(Guid id, UpdateCategoryDto dto)
 		{
-			var category = await _context.Categories.FirstOrDefaultAsync(x => x.Id == id);
-
-			if (category == null)
-				return NotFound("Tapılmadı");
-
-			_mapper.Map(dto, category);
-			category.UpdatedTime = DateTime.UtcNow;
+			Category validcategory = await _context.Categories.FirstOrDefaultAsync(t => t.Id == id);
+			if (validcategory == null)
+			{
+				return NotFound("Tapilmadi");
+			}
+			validcategory.Name = dto.Name==null ? validcategory.Name : dto.Name;
+			validcategory.Description = dto.Description==null ? validcategory.Description : dto.Description;
+			validcategory.UpdatedTime = DateTime.UtcNow;
+			_context.Categories.Update(validcategory);
 			await _context.SaveChangesAsync();
-			return Ok("Updated");
+			return Ok();
 		}
 
 		[HttpDelete]
@@ -142,7 +133,11 @@ namespace WebApiWithMappers.Controllers
 			Category validcategory = await _context.Categories.FirstOrDefaultAsync(t => t.Id == id);
 			if (validcategory==null)
 			{
-				return NotFound();
+				return BadRequest(new
+				{
+					status = HttpStatusCode.BadRequest,
+					message = "Kateqoriya tapilmadi"
+				});
 			}
 			_context.Categories.Remove(validcategory);
 			await _context.SaveChangesAsync();

@@ -1,98 +1,98 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\",
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\entities\\dtos\\categorydtos\\getcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\dtos\\categorydtos\\getcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\validators\\categories\\createcategorydtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\validators\\categories\\createcategorydtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\dal\\configurations\\categoryconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\dal\\configurations\\categoryconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\profiles\\categoryprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\profiles\\categoryprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\profiles\\productprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\profiles\\productprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\configurations\\categoryconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\configurations\\categoryconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\profiles\\productprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\profiles\\productprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\entities\\dtos\\categorydtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\dtos\\categorydtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\profiles\\categoryprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\profiles\\categoryprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\entities\\dtos\\categorydtos\\getcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\dtos\\categorydtos\\getcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\validators\\products\\updateproductdtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\validators\\products\\updateproductdtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\validators\\products\\createproductdtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\validators\\products\\createproductdtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\webapiwithmappers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\webapiwithmappers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\validators\\categories\\createcategorydtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\validators\\categories\\createcategorydtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\validators\\categories\\updatecategorydtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\validators\\categories\\updatecategorydtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\entities\\dtos\\categorydtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\dtos\\categorydtos\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\webapiwithmappers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\webapiwithmappers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\validators\\products\\updateproductdtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\validators\\products\\updateproductdtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\configurations\\productconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\configurations\\productconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\dal\\configurations\\productconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\dal\\configurations\\productconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\validators\\categories\\updatecategorydtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\validators\\categories\\updatecategorydtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\entities\\dtos\\productdtos\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\dtos\\productdtos\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\validators\\products\\createproductdtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\validators\\products\\createproductdtovalidators.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\entities\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\entities\\dtos\\productdtos\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\dtos\\productdtos\\getproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\entities\\dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\entities\\dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\dtos\\productdtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\dal\\efcore\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\dal\\efcore\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\entities\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\dtos\\productdtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\dal\\efcore\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\dal\\efcore\\apidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\common\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\entities\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\source\\repos\\webapiwithmappers\\webapiwithmappers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{E1720E20-7A7F-4F1A-9D9E-7254997D6A65}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|c:\\users\\user\\desktop\\webapi-configurations-mappers-\\webapiwithmappers\\webapiwithmappers\\entities\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1309B9F3-E71A-4E08-9BB1-DC1CD4C505CB}|WebApiWithMappers\\WebApiWithMappers.csproj|solutionrelative:webapiwithmappers\\entities\\dtos\\categorydtos\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -102,7 +102,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -131,88 +131,49 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CategoryConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\DAL\\Configurations\\CategoryConfigurations.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\DAL\\Configurations\\CategoryConfigurations.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\DAL\\Configurations\\CategoryConfigurations.cs",
+              "RelativeToolTip": "WebApiWithMappers\\DAL\\Configurations\\CategoryConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:47:15.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Controllers\\CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "WebApiWithMappers\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "WebApiWithMappers\\Controllers\\CategoriesController.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAASwDEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-22T11:48:47.558Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryProfiles.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Profiles\\CategoryProfiles.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Profiles\\CategoryProfiles.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Profiles\\CategoryProfiles.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Profiles\\CategoryProfiles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T12:20:41.569Z",
+              "WhenOpened": "2025-12-22T11:48:30.744Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\Category.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:49:52.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WebApiWithMappers",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\WebApiWithMappers.csproj",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\WebApiWithMappers.csproj",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\WebApiWithMappers.csproj",
-              "RelativeToolTip": "WebApiWithMappers\\WebApiWithMappers.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-22T11:57:55.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductProfiles.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Profiles\\ProductProfiles.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Profiles\\ProductProfiles.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Profiles\\ProductProfiles.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Profiles\\ProductProfiles.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T12:20:30.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Program.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Program.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA4AAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:50:15.445Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "GetCategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\GetCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\GetCategoryDto.cs",
               "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\GetCategoryDto.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\GetCategoryDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\GetCategoryDto.cs",
               "RelativeToolTip": "WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\GetCategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -220,68 +181,24 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CategoryConfigurations.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Configurations\\CategoryConfigurations.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Configurations\\CategoryConfigurations.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Configurations\\CategoryConfigurations.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Configurations\\CategoryConfigurations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:47:15.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateCategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\CreateCategoryDto.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\CreateCategoryDto.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\CreateCategoryDto.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\CreateCategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:54:03.897Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UpdateProductDtoValidators.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Products\\UpdateProductDtoValidators.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Validators\\Products\\UpdateProductDtoValidators.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Products\\UpdateProductDtoValidators.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Validators\\Products\\UpdateProductDtoValidators.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T10:53:24.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ProductConfigurations.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Configurations\\ProductConfigurations.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Configurations\\ProductConfigurations.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Configurations\\ProductConfigurations.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Configurations\\ProductConfigurations.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:47:35.144Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Program.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwA4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:50:15.445Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "CreateCategoryDtoValidators.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Categories\\CreateCategoryDtoValidators.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Categories\\CreateCategoryDtoValidators.cs",
               "RelativeDocumentMoniker": "WebApiWithMappers\\Validators\\Categories\\CreateCategoryDtoValidators.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Categories\\CreateCategoryDtoValidators.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Categories\\CreateCategoryDtoValidators.cs",
               "RelativeToolTip": "WebApiWithMappers\\Validators\\Categories\\CreateCategoryDtoValidators.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAIwAwAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -290,146 +207,211 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "UpdateCategoryDtoValidators.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Categories\\UpdateCategoryDtoValidators.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Validators\\Categories\\UpdateCategoryDtoValidators.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Categories\\UpdateCategoryDtoValidators.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Validators\\Categories\\UpdateCategoryDtoValidators.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T10:52:51.181Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CreateProductDtoValidators.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Products\\CreateProductDtoValidators.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Validators\\Products\\CreateProductDtoValidators.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Products\\CreateProductDtoValidators.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Validators\\Products\\CreateProductDtoValidators.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBYAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-23T10:53:12.685Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Controllers\\ProductsController.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Controllers\\ProductsController.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Controllers\\ProductsController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAAAG0AAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:48:30.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GetProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\GetProductDto.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\GetProductDto.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\GetProductDto.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\GetProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:53:51.437Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UpdateProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\UpdateProductDto.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\UpdateProductDto.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\UpdateProductDto.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\UpdateProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:53:38.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "CreateProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\CreateProductDto.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\CreateProductDto.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\CreateProductDto.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\CreateProductDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:53:29.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ApiDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\DAL\\EfCore\\ApiDbContext.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\DAL\\EfCore\\ApiDbContext.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\DAL\\EfCore\\ApiDbContext.cs",
-              "RelativeToolTip": "WebApiWithMappers\\DAL\\EfCore\\ApiDbContext.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:49:14.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\Common\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\Common\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\Common\\BaseEntity.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Entities\\Common\\BaseEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:51:57.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\Product.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Entities\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:49:41.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UpdateCategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\UpdateCategoryDto.cs",
-              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\UpdateCategoryDto.cs",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\UpdateCategoryDto.cs",
-              "RelativeToolTip": "WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\UpdateCategoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-22T11:54:13.32Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\appsettings.json",
               "RelativeDocumentMoniker": "WebApiWithMappers\\appsettings.json",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\WebApiWithMappers\\WebApiWithMappers\\appsettings.json",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\appsettings.json",
               "RelativeToolTip": "WebApiWithMappers\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-12-22T11:50:44.619Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Profiles\\ProductProfiles.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Profiles\\ProductProfiles.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Profiles\\ProductProfiles.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Profiles\\ProductProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T12:20:30.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Profiles\\CategoryProfiles.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Profiles\\CategoryProfiles.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Profiles\\CategoryProfiles.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Profiles\\CategoryProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T12:20:41.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WebApiWithMappers.csproj",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\WebApiWithMappers.csproj",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\WebApiWithMappers.csproj",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\WebApiWithMappers.csproj",
+              "RelativeToolTip": "WebApiWithMappers\\WebApiWithMappers.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-22T11:57:55.768Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\Category.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:49:52.552Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\CreateCategoryDto.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\CreateCategoryDto.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\CreateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:54:03.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateProductDtoValidators.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Products\\UpdateProductDtoValidators.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Validators\\Products\\UpdateProductDtoValidators.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Products\\UpdateProductDtoValidators.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Validators\\Products\\UpdateProductDtoValidators.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T10:53:24.924Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductConfigurations.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\DAL\\Configurations\\ProductConfigurations.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\DAL\\Configurations\\ProductConfigurations.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\DAL\\Configurations\\ProductConfigurations.cs",
+              "RelativeToolTip": "WebApiWithMappers\\DAL\\Configurations\\ProductConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:47:35.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UpdateCategoryDtoValidators.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Categories\\UpdateCategoryDtoValidators.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Validators\\Categories\\UpdateCategoryDtoValidators.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Categories\\UpdateCategoryDtoValidators.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Validators\\Categories\\UpdateCategoryDtoValidators.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T10:52:51.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreateProductDtoValidators.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Products\\CreateProductDtoValidators.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Validators\\Products\\CreateProductDtoValidators.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Validators\\Products\\CreateProductDtoValidators.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Validators\\Products\\CreateProductDtoValidators.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T10:53:12.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\GetProductDto.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\GetProductDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\GetProductDto.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\GetProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:53:51.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\UpdateProductDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\UpdateProductDto.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\UpdateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:53:38.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\CreateProductDto.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Entities\\DTOs\\ProductDtos\\CreateProductDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:53:29.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ApiDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\DAL\\EfCore\\ApiDbContext.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\DAL\\EfCore\\ApiDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\DAL\\EfCore\\ApiDbContext.cs",
+              "RelativeToolTip": "WebApiWithMappers\\DAL\\EfCore\\ApiDbContext.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:49:14.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\Common\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\Common\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\Common\\BaseEntity.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Entities\\Common\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:51:57.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\Product.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Entities\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:49:41.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UpdateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\UpdateCategoryDto.cs",
+              "RelativeDocumentMoniker": "WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\UpdateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\WebApi-Configurations-Mappers-\\WebApiWithMappers\\WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\UpdateCategoryDto.cs",
+              "RelativeToolTip": "WebApiWithMappers\\Entities\\DTOs\\CategoryDtos\\UpdateCategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-22T11:54:13.32Z"
             }
           ]
         }

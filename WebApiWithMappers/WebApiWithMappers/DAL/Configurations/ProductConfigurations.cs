@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using WebApiWithMappers.Entities;
 
-namespace WebApiWithMappers.Configurations
+namespace WebApiWithMappers.DAL.Configurations
 {
 	public class ProductConfigurations : IEntityTypeConfiguration<Product>
 	{

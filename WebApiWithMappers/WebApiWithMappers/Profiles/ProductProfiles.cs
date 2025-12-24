@@ -8,9 +8,8 @@ namespace WebApiWithMappers.Profiles
     {
         public ProductProfiles() 
         {
-            CreateMap<Product, CreateProductDto>().ReverseMap();
+            CreateMap<CreateProductDto, Product>();
 			CreateMap<Product, GetProductDto>();
-            CreateMap<Product, UpdateProductDto>().ReverseMap();
 		}
         
     }
