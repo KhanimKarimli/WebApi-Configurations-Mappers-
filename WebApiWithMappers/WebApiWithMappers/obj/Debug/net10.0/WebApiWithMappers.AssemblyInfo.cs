@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebApiWithMappers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3225f07c4b3f2e3c137fb4e4d430c6040559d700")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+24da1a808641adae22bc3b20eb84e2ca84f23bc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebApiWithMappers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebApiWithMappers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
