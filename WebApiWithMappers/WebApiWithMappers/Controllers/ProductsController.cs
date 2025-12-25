@@ -107,7 +107,7 @@ namespace WebApiWithMappers.Controllers
 			}
 			validproduct.Name = dto.Name==null ? validproduct.Name : dto.Name;
 			validproduct.Description = dto.Description==null ? validproduct.Description : dto.Description;
-			validproduct.Price = dto.Price==null ? validproduct.Price : dto.Price;
+			validproduct.TotalAmount = dto.Price==null ? validproduct.TotalAmount : dto.Price;
 			validproduct.Count = dto.Count==null ? validproduct.Count : dto.Count;
 			validproduct.CategoryId = dto.CategoryId==null ? validproduct.CategoryId : dto.CategoryId;
 			validproduct.UpdatedTime = DateTime.UtcNow;

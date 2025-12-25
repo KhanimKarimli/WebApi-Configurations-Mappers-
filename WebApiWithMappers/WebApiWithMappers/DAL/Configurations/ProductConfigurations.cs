@@ -17,7 +17,7 @@ namespace WebApiWithMappers.DAL.Configurations
 				.HasMaxLength(100)
 				.HasDefaultValue("No description");
 
-			builder.Property(p => p.Price)
+			builder.Property(p => p.TotalAmount)
 				.IsRequired();
 
 			builder.Property(p => p.Count)
