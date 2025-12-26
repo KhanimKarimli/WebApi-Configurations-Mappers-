@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "WebApiWithMappers.Controllers.Auth.AppUsersController",
+    "Method": "CreateRegister",
+    "RelativePath": "api/AppUsers/CreateRegister",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "register",
+        "Type": "WebApiWithMappers.Entities.DTOs.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "WebApiWithMappers.Controllers.CategoriesController",
     "Method": "CreateCategory",
     "RelativePath": "api/Categories/CreateCategory",
@@ -73,6 +89,164 @@
       {
         "Name": "dto",
         "Type": "WebApiWithMappers.Entities.DTOs.CategoryDtos.UpdateCategoryDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWithMappers.Controllers.OrderItemsController",
+    "Method": "CreateOrderItem",
+    "RelativePath": "api/OrderItems/CreateOrderItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WebApiWithMappers.Entities.DTOs.OrderItemDtos.CreateOrderItemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWithMappers.Controllers.OrderItemsController",
+    "Method": "DeleteOrderItem",
+    "RelativePath": "api/OrderItems/DeleteOrderItem",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWithMappers.Controllers.OrderItemsController",
+    "Method": "GetAllOrderItems",
+    "RelativePath": "api/OrderItems/GetAllOrderItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWithMappers.Controllers.OrderItemsController",
+    "Method": "GetOrderItemById",
+    "RelativePath": "api/OrderItems/GetOrderItemById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWithMappers.Controllers.OrderItemsController",
+    "Method": "UpdateOrderItem",
+    "RelativePath": "api/OrderItems/UpdateOrderItem",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "dto",
+        "Type": "WebApiWithMappers.Entities.DTOs.OrderItemDtos.UpdateOrderItemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWithMappers.Controllers.OrdersController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Orders/CreateOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "WebApiWithMappers.Entities.DTOs.OrderDtos.CreateOrderDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWithMappers.Controllers.OrdersController",
+    "Method": "DeleteOrder",
+    "RelativePath": "api/Orders/DeleteOrder",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWithMappers.Controllers.OrdersController",
+    "Method": "GetAllOrders",
+    "RelativePath": "api/Orders/GetAllOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWithMappers.Controllers.OrdersController",
+    "Method": "GetOrderById",
+    "RelativePath": "api/Orders/GetOrderById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWithMappers.Controllers.OrdersController",
+    "Method": "UpdateOrder",
+    "RelativePath": "api/Orders/UpdateOrder",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "dto",
+        "Type": "WebApiWithMappers.Entities.DTOs.OrderDtos.UpdateOrderDto",
         "IsRequired": true
       }
     ],

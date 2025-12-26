@@ -1,14 +1,16 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Reflection.Emit;
 using WebApiWithMappers.Entities;
+using WebApiWithMappers.Entities.Auth;
 
 namespace WebApiWithMappers.DAL.EfCore
 {
-    public class ApiDbContext:DbContext
-    {
-		public ApiDbContext(DbContextOptions options) : base(options)
+	public class ApiDbContext : IdentityDbContext<AppUser>
+	{
+		public ApiDbContext(DbContextOptions<ApiDbContext> options) : base(options)
 		{
 		}
 
@@ -16,6 +18,7 @@ namespace WebApiWithMappers.DAL.EfCore
 		{
 			//modelBuilder.ApplyConfigurationsFromAssembly(typeof(ApiDbContext).Assembly);
 			modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+			base.OnModelCreating(modelBuilder);
 		}
 		public DbSet<Product> Products { get; set; }
 		public DbSet<Category> Categories { get; set; }

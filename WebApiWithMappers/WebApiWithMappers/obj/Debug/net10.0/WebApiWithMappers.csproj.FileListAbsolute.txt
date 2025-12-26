@@ -442,3 +442,5 @@ C:\Users\User\Desktop\WebApi-Configurations-Mappers-\WebApiWithMappers\WebApiWit
 C:\Users\User\Desktop\WebApi-Configurations-Mappers-\WebApiWithMappers\WebApiWithMappers\obj\Debug\net10.0\WebApiWithMappers.pdb
 C:\Users\User\Desktop\WebApi-Configurations-Mappers-\WebApiWithMappers\WebApiWithMappers\obj\Debug\net10.0\WebApiWithMappers.genruntimeconfig.cache
 C:\Users\User\Desktop\WebApi-Configurations-Mappers-\WebApiWithMappers\WebApiWithMappers\obj\Debug\net10.0\ref\WebApiWithMappers.dll
+C:\Users\User\Desktop\WebApi-Configurations-Mappers-\WebApiWithMappers\WebApiWithMappers\bin\Debug\net10.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User\Desktop\WebApi-Configurations-Mappers-\WebApiWithMappers\WebApiWithMappers\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
