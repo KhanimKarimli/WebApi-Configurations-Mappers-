@@ -1,39 +1,44 @@
-using FluentValidation;
-using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using System.Reflection;
-using WebApiWithMappers.DAL.EfCore;
-using WebApiWithMappers.Entities.Auth;
-using WebApiWithMappers.Profiles;
+using Microsoft.OpenApi.Models;
+using WebApiWithMappers;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddFluentValidationAutoValidation().AddFluentValidationClientsideAdapters();
-builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
-builder.Services.AddAuthorization();
-
-
-builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
-
-builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<ApiDbContext>(options =>
-	options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddConfigurationService(builder.Configuration);
 builder.Services.AddControllers();
-builder.Services.AddIdentity<AppUser, IdentityRole>().AddEntityFrameworkStores<ApiDbContext>().AddDefaultTokenProviders();
 
+builder.Services.AddSwaggerGen(option =>
+{
+	option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+	{
+		In = ParameterLocation.Header,
+		Description = "Please enter a valid token",
+		Name = "Authorization",
+		Type = SecuritySchemeType.ApiKey,
+		BearerFormat = "JWT",
+		Scheme = "Bearer"
+	});
+	option.AddSecurityRequirement(new OpenApiSecurityRequirement
+	{
+		{
+			new OpenApiSecurityScheme
+			{
+				Reference = new OpenApiReference
+				{
+					Type=ReferenceType.SecurityScheme,
+					Id="Bearer"
+				}
+			},
+			new string[]{}
+		}
+	});
+});
 var app = builder.Build();
 
-
-app.UseHttpsRedirection();
 app.UseSwagger();
 // app.UseSwaggerUI();    birbasa swaggerde acmasi ucun asagidaki kimi yaziriq
-app.UseSwaggerUI(c =>
-{
-	c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
-	c.RoutePrefix = string.Empty; // <-- burasý vacibdir
-});
+
 app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();

@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
 using WebApiWithMappers.DAL.EfCore;
+using WebApiWithMappers.DAL.UnitOfWork.Abstract;
 using WebApiWithMappers.Entities;
 using WebApiWithMappers.Entities.DTOs.CategoryDtos;
 using WebApiWithMappers.Entities.DTOs.ProductDtos;
@@ -14,12 +15,12 @@ namespace WebApiWithMappers.Controllers
 	[ApiController]
 	public class ProductsController : ControllerBase
 	{
-		private readonly ApiDbContext _context;
+		private readonly IUnitOfWork _unitOfWork;
 		IMapper _mapper;
-		public ProductsController(ApiDbContext context, IMapper mapper)
+		public ProductsController(IMapper mapper, IUnitOfWork unitOfWork)
 		{
-			_context = context;
 			_mapper = mapper;
+			_unitOfWork=unitOfWork;
 		}
 
 		//[HttpGet]
@@ -44,7 +45,7 @@ namespace WebApiWithMappers.Controllers
 		[HttpGet]
 		public async Task<IActionResult> GetProducts()
 		{
-			var products = await _context.Products.ToListAsync();
+			var products = await _unitOfWork.ProductRepository.GetAllAsync();
 
 			var productDtos = _mapper.Map<List<GetProductDto>>(products);
 
@@ -65,7 +66,7 @@ namespace WebApiWithMappers.Controllers
 		[HttpGet]
 		public async Task<IActionResult> GetProductById(Guid id)
 		{
-			var product = await _context.Products.FirstOrDefaultAsync(x => x.Id == id);
+			var product = await _unitOfWork.ProductRepository.Get(x => x.Id == id);
 
 			if (product == null)
 				return BadRequest(new
@@ -86,8 +87,8 @@ namespace WebApiWithMappers.Controllers
 				var product = _mapper.Map<Product>(dto);
 				product.Id=Guid.NewGuid();
 				product.CreatedTime = DateTime.UtcNow;
-				await _context.Products.AddAsync(product);
-				await _context.SaveChangesAsync();
+				await _unitOfWork.ProductRepository.AddAsync(product);
+				await _unitOfWork.SaveAsync();
 				return NoContent();
 			}
 		}
@@ -96,7 +97,7 @@ namespace WebApiWithMappers.Controllers
 		[HttpPut]
 		public async Task<IActionResult> UpdateProduct(Guid id, UpdateProductDto dto)
 		{
-			Product validproduct = await _context.Products.FirstOrDefaultAsync(t => t.Id == id);
+			Product validproduct = await _unitOfWork.ProductRepository.Get(t => t.Id == id);
 			if (validproduct == null)
 			{
 				return BadRequest(new
@@ -111,15 +112,15 @@ namespace WebApiWithMappers.Controllers
 			validproduct.Count = dto.Count==null ? validproduct.Count : dto.Count;
 			validproduct.CategoryId = dto.CategoryId==null ? validproduct.CategoryId : dto.CategoryId;
 			validproduct.UpdatedTime = DateTime.UtcNow;
-			_context.Products.Update(validproduct);
-			await _context.SaveChangesAsync();
+			_unitOfWork.ProductRepository.Update(validproduct);
+			await _unitOfWork.SaveAsync();
 			return Ok();
 		}
 
 		[HttpDelete]
 		public async Task<IActionResult> DeleteProduct(Guid id)
 		{
-			Product validproduct = await _context.Products.FirstOrDefaultAsync(t => t.Id == id);
+			Product validproduct = await _unitOfWork.ProductRepository.Get(t => t.Id == id);
 			if (validproduct==null)
 			{
 				return BadRequest(new
@@ -128,8 +129,8 @@ namespace WebApiWithMappers.Controllers
 					message = "Mehsul tapilmadi"
 				});
 			}
-			_context.Products.Remove(validproduct);
-			await _context.SaveChangesAsync();
+			_unitOfWork.ProductRepository.Delete(validproduct.Id);
+			await _unitOfWork.SaveAsync();
 			return Ok("Deleted");
 		}
 	}

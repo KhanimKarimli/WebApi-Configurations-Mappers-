@@ -1,9 +1,13 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Net;
 using WebApiWithMappers.DAL.EfCore;
+using WebApiWithMappers.DAL.Repositories.Abstract;
+using WebApiWithMappers.DAL.Repositories.Concrete.EfCore;
+using WebApiWithMappers.DAL.UnitOfWork.Abstract;
 using WebApiWithMappers.Entities;
 using WebApiWithMappers.Entities.DTOs.CategoryDtos;
 using WebApiWithMappers.Entities.DTOs.ProductDtos;
@@ -14,13 +18,13 @@ namespace WebApiWithMappers.Controllers
     [ApiController]
     public class CategoriesController : ControllerBase
     {
-		private readonly ApiDbContext _context;
+		private readonly IUnitOfWork _unitOfWork;
 		IMapper _mapper;
-		public CategoriesController(ApiDbContext context, IMapper mapper)
-		{
-			_context = context;
-			_mapper = mapper;
-		}
+        public CategoriesController(IMapper mapper, IUnitOfWork unitOfWork)
+        {
+            _mapper = mapper;
+			_unitOfWork=unitOfWork;
+        }
 
 		//[HttpGet]
 
@@ -41,16 +45,27 @@ namespace WebApiWithMappers.Controllers
 		//	return StatusCode((int)HttpStatusCode.OK, result);
 		//}
 
+		
 		[HttpGet]
+		[Authorize]
 		public async Task<IActionResult> GetAllCategories()
 		{
-			var categories = await _context.Categories.ToListAsync();
+			var categories = await _unitOfWork.CategoryRepository.GetAllAsync();
 
 			var categoryDtos = _mapper.Map<List<GetCategoryDto>>(categories);
 
 			return Ok(categoryDtos);
 		}
 
+		[HttpGet]
+		public async Task<IActionResult> GetAllCategoriesPaginated(int page=1, int size=5)
+		{
+			var categories = await _unitOfWork.CategoryRepository.GetPaginatedAsync(page,size);
+
+			var categoryDtos = _mapper.Map<List<GetCategoryDto>>(categories);
+
+			return Ok(categoryDtos);
+		}
 		//[HttpGet]
 
 		//public async Task<IActionResult> GetProductById(Guid id)
@@ -66,7 +81,7 @@ namespace WebApiWithMappers.Controllers
 		[HttpGet]
 		public async Task<IActionResult> GetCategoryById(Guid id)
 		{
-			var category = await _context.Categories.FirstOrDefaultAsync(x => x.Id == id);
+			var category = await _unitOfWork.CategoryRepository.Get(x => x.Id == id);
 
 			if (category == null)
 				return BadRequest(new
@@ -104,8 +119,8 @@ namespace WebApiWithMappers.Controllers
 				var category = _mapper.Map<Category>(dto);
 				category.Id=Guid.NewGuid();
 				category.CreatedTime = DateTime.UtcNow;
-				await _context.Categories.AddAsync(category);
-				await _context.SaveChangesAsync();
+				await _unitOfWork.CategoryRepository.AddAsync(category);
+				await _unitOfWork.SaveAsync();
 				return NoContent();
 			}
 		}
@@ -114,7 +129,7 @@ namespace WebApiWithMappers.Controllers
 		[HttpPut]
 		public async Task<IActionResult> UpdateCategory(Guid id, UpdateCategoryDto dto)
 		{
-			Category validcategory = await _context.Categories.FirstOrDefaultAsync(t => t.Id == id);
+			Category validcategory = await _unitOfWork.CategoryRepository.Get(t => t.Id == id);
 			if (validcategory == null)
 			{
 				return NotFound("Tapilmadi");
@@ -122,15 +137,15 @@ namespace WebApiWithMappers.Controllers
 			validcategory.Name = dto.Name==null ? validcategory.Name : dto.Name;
 			validcategory.Description = dto.Description==null ? validcategory.Description : dto.Description;
 			validcategory.UpdatedTime = DateTime.UtcNow;
-			_context.Categories.Update(validcategory);
-			await _context.SaveChangesAsync();
+			_unitOfWork.CategoryRepository.Update(validcategory);
+			await _unitOfWork.SaveAsync();
 			return Ok();
 		}
 
 		[HttpDelete]
 		public async Task<IActionResult> DeleteCategory(Guid id)
 		{
-			Category validcategory = await _context.Categories.FirstOrDefaultAsync(t => t.Id == id);
+			Category validcategory = await _unitOfWork.CategoryRepository.Get(t => t.Id == id);
 			if (validcategory==null)
 			{
 				return BadRequest(new
@@ -139,8 +154,8 @@ namespace WebApiWithMappers.Controllers
 					message = "Kateqoriya tapilmadi"
 				});
 			}
-			_context.Categories.Remove(validcategory);
-			await _context.SaveChangesAsync();
+			_unitOfWork.CategoryRepository.Delete(validcategory.Id);
+			await _unitOfWork.SaveAsync();
 			return Ok("Deleted");
 		}
 	}

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using WebApiWithMappers.Entities.Auth;
-using WebApiWithMappers.Entities.DTOs;
+using WebApiWithMappers.Entities.DTOs.AuthDtos;
 
 namespace WebApiWithMappers.Profiles
 {
@@ -8,7 +8,7 @@ namespace WebApiWithMappers.Profiles
     {
         public AuthProfile()
         {
-			CreateMap<RegisterDto, AppUser>();
+			CreateMap<RegisterDto, AppUser>().ReverseMap();
 		}
     }
 }

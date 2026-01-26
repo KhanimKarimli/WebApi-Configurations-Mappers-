@@ -9,7 +9,23 @@
     "Parameters": [
       {
         "Name": "register",
-        "Type": "WebApiWithMappers.Entities.DTOs.RegisterDto",
+        "Type": "WebApiWithMappers.Entities.DTOs.AuthDtos.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWithMappers.Controllers.Auth.AppUsersController",
+    "Method": "Login",
+    "RelativePath": "api/AppUsers/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "WebApiWithMappers.Entities.DTOs.AuthDtos.LoginDto",
         "IsRequired": true
       }
     ],
@@ -55,6 +71,27 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiWithMappers.Controllers.CategoriesController",
+    "Method": "GetAllCategoriesPaginated",
+    "RelativePath": "api/Categories/GetAllCategoriesPaginated",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "size",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
